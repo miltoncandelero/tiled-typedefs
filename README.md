@@ -2,6 +2,8 @@
 
 This is a **LOGIC-ONLY** implementation of the json export of [Tiled](https://www.mapeditor.org/)
 
+(More info about the json export [here](http://doc.mapeditor.org/en/latest/reference/json-map-format/))
+
 The bad news is that this won't render anything.
 
 The good news is that this should work with any engine you can think of: OpenFL, Kha, Heaps, Flixel, Haxegon, Punk, etc.
