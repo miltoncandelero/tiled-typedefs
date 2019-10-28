@@ -1,0 +1,17 @@
+{
+    "name": "TiledTypedefs",
+    "url": "https://github.com/miltoncandelero/tiled-typedefs",
+    "license": "Public",
+    "tags": [
+        "tiled",
+        "json",
+        "typedef"
+    ],
+    "description": "A logic-only typedef parser of tiled json maps",
+    "version": "1.0.0",
+    "releasenote": "Initial release, everything should be working correctly.",
+    "contributors": [
+        "miltoncandelero"
+    ],
+    "classPath": "src"
+}
