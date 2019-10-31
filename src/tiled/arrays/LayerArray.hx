@@ -2,6 +2,7 @@ package tiled.arrays;
 
 import tiled.enums.LayerType;
 
+// Made with ♥ by Milton Candelero - Oct 2019 - Based on 1.3.0 beta docs: http://doc.mapeditor.org/en/latest/reference/json-map-format/
 abstract LayerArray(Array<Layer>) from Array<Layer> to Array<Layer> {
 	/**
 	 * Returns the full layer object by name

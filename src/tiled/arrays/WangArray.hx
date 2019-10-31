@@ -2,6 +2,7 @@ package tiled.arrays;
 
 import tiled.WangSet.WangColor;
 
+// Made with ♥ by Milton Candelero - Oct 2019 - Based on 1.3.0 beta docs: http://doc.mapeditor.org/en/latest/reference/json-map-format/
 abstract WangSetArray(Array<WangSet>) from Array<WangSet> to Array<WangSet> {
 	/**
 	 * Returns the full WangSet object by name
@@ -18,6 +19,7 @@ abstract WangSetArray(Array<WangSet>) from Array<WangSet> to Array<WangSet> {
 	}
 }
 
+// Made with ♥ by Milton Candelero - Oct 2019 - Based on 1.3.0 beta docs: http://doc.mapeditor.org/en/latest/reference/json-map-format/
 abstract WangColorArray(Array<WangColor>) from Array<WangColor> to Array<WangColor> {
 	/**
 	 * Returns the full WangColor object by name
