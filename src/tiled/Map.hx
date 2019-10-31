@@ -1,5 +1,9 @@
 package tiled;
 
+import tiled.enums.Orientation;
+import tiled.enums.RenderOrder;
+import tiled.enums.Stagger.StaggerAxis;
+import tiled.enums.Stagger.StaggerIndex;
 import tiled.arrays.LayerArray;
 import tiled.arrays.PropertyArray;
 import tiled.arrays.TilesetArray;
@@ -50,7 +54,7 @@ typedef Map = {
 	/**
 	 * 	orthogonal, isometric, staggered or hexagonal
 	 */
-	var orientation:Null<String>;
+	var orientation:Null<Orientation>;
 
 	/**
 	 * 	Array of Properties
@@ -60,17 +64,17 @@ typedef Map = {
 	/**
 	 * 	right-down (the default), right-up, left-down or left-up (orthogonal maps only)
 	 */
-	var renderorder:Null<String>;
+	var renderorder:Null<RenderOrder>;
 
 	/**
 	 * 	x or y (staggered / hexagonal maps only)
 	 */
-	var staggeraxis:Null<String>;
+	var staggeraxis:Null<StaggerAxis>;
 
 	/**
 	 * 	odd or even (staggered / hexagonal maps only)
 	 */
-	var staggerindex:Null<String>;
+	var staggerindex:Null<StaggerIndex>;
 
 	/**
 	 * 	The Tiled version used to save the file

@@ -1,5 +1,9 @@
 package tiled;
 
+import tiled.enums.Compression;
+import tiled.enums.LayerType;
+import tiled.enums.DrawOrder;
+import tiled.enums.Encoding;
 import tiled.arrays.PropertyArray;
 import tiled.arrays.ObjectArray;
 import tiled.arrays.LayerArray;
@@ -14,7 +18,7 @@ typedef Layer = {
 	/**
 	 * 	zlib, gzip or empty (default). tilelayer only.
 	 */
-	var compression:Null<String>;
+	var compression:Null<Compression>;
 
 	/**
 	 *  Array or string - Array of unsigned int (GIDs) or base64-encoded data. tilelayer only.
@@ -24,12 +28,12 @@ typedef Layer = {
 	/**
 	 * 	topdown (default) or index. objectgroup only.
 	 */
-	var draworder:Null<String>;
+	var draworder:Null<DrawOrder>;
 
 	/**
 	 * 	csv (default) or base64. tilelayer only.
 	 */
-	var encoding:Null<String>;
+	var encoding:Null<Encoding>;
 
 	/**
 	 * 	Row count. Same as map height for fixed-size maps.
@@ -99,7 +103,7 @@ typedef Layer = {
 	/**
 	 * 	tilelayer, objectgroup, imagelayer or group
 	 */
-	var type:Null<String>;
+	var type:Null<LayerType>;
 
 	/**
 	 * 	Whether layer is shown or hidden in editor

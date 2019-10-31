@@ -1,5 +1,7 @@
 package tiled;
 
+import tiled.enums.Orientation;
+
 // Made with ♥ by Milton Candelero - Oct 2019 - Based on 1.3.0 beta docs: http://doc.mapeditor.org/en/latest/reference/json-map-format/
 
 /**
@@ -15,7 +17,7 @@ typedef Grid = {
 	/**
 	 * 	orthogonal (default) or isometric
 	 */
-	var orientation:Null<String>;
+	var orientation:Null<Orientation>;
 
 	/**
 	 * 	Cell width of tile grid

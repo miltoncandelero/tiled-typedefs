@@ -1,5 +1,8 @@
 package tiled;
 
+import tiled.enums.TextAlign.HAlign;
+import tiled.enums.TextAlign.VAlign;
+
 // Made with ♥ by Milton Candelero - Oct 2019 - Based on 1.3.0 beta docs: http://doc.mapeditor.org/en/latest/reference/json-map-format/
 typedef Text = {
 	/**
@@ -20,7 +23,7 @@ typedef Text = {
 	/**
 	 * 	Horizontal alignment (center, right, justify or left (default))
 	 */
-	var halign:Null<String>;
+	var halign:Null<HAlign>;
 
 	/**
 	 * 	Whether to use an italic font (default: false)
@@ -55,7 +58,7 @@ typedef Text = {
 	/**
 	 * 	Vertical alignment (center, bottom or top (default))
 	 */
-	var valign:Null<String>;
+	var valign:Null<VAlign>;
 
 	/**
 	 * 	Whether the text is wrapped within the object bounds (default: false)
