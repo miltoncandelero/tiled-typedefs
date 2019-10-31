@@ -1,17 +1,20 @@
 package tiled;
 
+import tiled.arrays.WangArray.WangColorArray;
+import tiled.arrays.PropertyArray;
+
 // Made with ♥ by Milton Candelero - Oct 2019 - Based on 1.3.0 beta docs: http://doc.mapeditor.org/en/latest/reference/json-map-format/
 
 typedef WangSet = {
 	/**
 	 * Array of Wang colors
 	 */
-	var cornercolors:Array<WangColor>;
+	var cornercolors:WangColorArray;
 
 	/**
 	 * Array of Wang colors
 	 */
-	var edgecolors:Array<WangColor>;
+	var edgecolors:WangColorArray;
 
 	/**
 	 * Name of the Wang set

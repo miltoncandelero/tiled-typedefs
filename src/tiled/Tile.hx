@@ -1,5 +1,7 @@
 package tiled;
 
+import tiled.arrays.PropertyArray;
+
 // Made with ♥ by Milton Candelero - Oct 2019 - Based on 1.3.0 beta docs: http://doc.mapeditor.org/en/latest/reference/json-map-format/
 typedef Tile = {
 	/**
@@ -45,9 +47,11 @@ typedef Tile = {
 	/**
 	 * Index of terrain for each corner of tile (optional)
 	 * For the terrain information, each value is a length-4 array where each element is the index of a terrain on one corner of the tile. The order of indices is: top-left, top-right, bottom-left, bottom-right.
-	 */ var terrain:Array<Int>;
+	 */
+	var terrain:Array<Int>;
 
 	/**
 	 * The type of the tile (optional)
-	 */ var type:Null<String>;
+	 */
+	var type:Null<String>;
 }

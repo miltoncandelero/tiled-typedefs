@@ -1,5 +1,9 @@
 package tiled;
 
+import tiled.arrays.LayerArray;
+import tiled.arrays.PropertyArray;
+import tiled.arrays.TilesetArray;
+
 // Made with ♥ by Milton Candelero - Oct 2019 - Based on 1.3.0 beta docs: http://doc.mapeditor.org/en/latest/reference/json-map-format/
 
 /**
@@ -31,7 +35,7 @@ typedef Map = {
 	/**
 	 * 	Array of Layers
 	 */
-	var layers:Array<Layer>;
+	var layers:LayerArray;
 
 	/**
 	 * 	Auto-increments for each layer
@@ -81,7 +85,7 @@ typedef Map = {
 	/**
 	 * 	Array of Tilesets
 	 */
-	var tilesets:Array<Tileset>;
+	var tilesets:TilesetArray;
 
 	/**
 	 * 	Map grid width

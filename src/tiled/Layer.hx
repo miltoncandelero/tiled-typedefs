@@ -1,5 +1,9 @@
 package tiled;
 
+import tiled.arrays.PropertyArray;
+import tiled.arrays.ObjectArray;
+import tiled.arrays.LayerArray;
+
 // Made with ♥ by Milton Candelero - Oct 2019 - Based on 1.3.0 beta docs: http://doc.mapeditor.org/en/latest/reference/json-map-format/
 typedef Layer = {
 	/**
@@ -45,7 +49,7 @@ typedef Layer = {
 	/**
 	 * 	Array of layers. group only.
 	 */
-	var layers:Array<Layer>;
+	var layers:LayerArray;
 
 	/**
 	 * 	Name assigned to this layer
@@ -55,7 +59,7 @@ typedef Layer = {
 	/**
 	 * 	Array of objects. objectgroup only.
 	 */
-	var objects:Array<Object>;
+	var objects:ObjectArray;
 
 	/**
 	 * 	Horizontal layer offset in pixels (default: 0)

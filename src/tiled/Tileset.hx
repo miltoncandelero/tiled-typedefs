@@ -1,5 +1,9 @@
 package tiled;
 
+import tiled.arrays.PropertyArray;
+import tiled.arrays.TerrainArray;
+import tiled.arrays.WangArray;
+
 // Made with ♥ by Milton Candelero - Oct 2019 - Based on 1.3.0 beta docs: http://doc.mapeditor.org/en/latest/reference/json-map-format/
 
 /**
@@ -70,7 +74,7 @@ typedef Tileset = {
 	/**
 	 * 	Array of Terrains (optional)
 	 */
-	var terrains:Array<Terrain>;
+	var terrains:TerrainArray;
 
 	/**
 	 * 	The number of tiles in this tileset
@@ -120,5 +124,5 @@ typedef Tileset = {
 	/**
 	 * 	Array of Wang sets (since 1.1.5)
 	 */
-	var wangsets:Array<WangSet>;
+	var wangsets:WangSetArray;
 }
