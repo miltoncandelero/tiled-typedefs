@@ -8,8 +8,8 @@
         "typedef"
     ],
     "description": "A logic-only typedef parser of tiled json maps",
-    "version": "1.0.1",
-    "releasenote": "Added abstract PropertyArray for easy by name access. Quick release, more abstracts to come.",
+    "version": "1.1.0",
+    "releasenote": "Tons of abstracts and enums for easier parsing",
     "contributors": [
         "miltoncandelero"
     ],
