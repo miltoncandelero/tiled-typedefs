@@ -40,7 +40,7 @@ typedef Tile = {
 	/**
 	 * Array of Properties
 	 */
-	var properties:Array<Property>;
+	var properties:PropertyArray;
 
 	/**
 	 * Index of terrain for each corner of tile (optional)

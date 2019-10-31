@@ -51,7 +51,7 @@ typedef Map = {
 	/**
 	 * 	Array of Properties
 	 */
-	var properties:Array<Property>;
+	var properties:PropertyArray;
 
 	/**
 	 * 	right-down (the default), right-up, left-down or left-up (orthogonal maps only)

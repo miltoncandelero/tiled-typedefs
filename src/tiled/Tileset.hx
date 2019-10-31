@@ -55,7 +55,7 @@ typedef Tileset = {
 	/**
 	 * 	Array of Properties
 	 */
-	var properties:Array<Property>;
+	var properties:PropertyArray;
 
 	/**
 	 * 	The external file that contains this tilesets data

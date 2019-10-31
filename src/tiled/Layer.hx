@@ -75,7 +75,7 @@ typedef Layer = {
 	/**
 	 * 	Array of Properties
 	 */
-	var properties:Array<Property>;
+	var properties:PropertyArray;
 
 	/**
 	 * 	X coordinate where layer content starts (for infinite maps)

@@ -10,7 +10,7 @@ typedef Terrain = {
 	/**
 	 * Array of Properties
 	 */
-	var properties:Array<Property>;
+	var properties:PropertyArray;
 
 	/**
 	 * Local ID of tile representing terrain

@@ -45,7 +45,7 @@ typedef Object = {
 	/**
 	 * 	Array of Properties
 	 */
-	var properties:Array<Property>;
+	var properties:PropertyArray;
 
 	/**
 	 * 	Angle in degrees clockwise
