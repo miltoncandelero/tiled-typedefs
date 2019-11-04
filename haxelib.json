@@ -8,8 +8,8 @@
         "typedef"
     ],
     "description": "A logic-only typedef parser of tiled json maps",
-    "version": "1.1.0",
-    "releasenote": "Tons of abstracts and enums for easier parsing",
+    "version": "1.1.1",
+    "releasenote": "added getObjects to get an objectarray by name.",
     "contributors": [
         "miltoncandelero"
     ],

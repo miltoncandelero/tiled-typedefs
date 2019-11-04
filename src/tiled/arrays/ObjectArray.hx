@@ -15,4 +15,13 @@ abstract ObjectArray(Array<Object>) from Array<Object> to Array<Object> {
 		}
 		return null;
 	}
+
+	/**
+	 * Returns an array of objects that match the name
+	 * @param name Name of the object
+	 * @return ObjectArray Array of objects
+	 */
+	public function getObjects(name:String):ObjectArray {
+		return this.filter(o -> o.name == name);
+	}
 }
