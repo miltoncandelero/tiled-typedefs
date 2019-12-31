@@ -8,8 +8,8 @@
         "typedef"
     ],
     "description": "A logic-only typedef parser of tiled json maps",
-    "version": "1.1.1",
-    "releasenote": "added getObjects to get an objectarray by name.",
+    "version": "1.1.2",
+    "releasenote": "Abstracts are not forwarded by default. I had broken everything before and nobody noticed",
     "contributors": [
         "miltoncandelero"
     ],

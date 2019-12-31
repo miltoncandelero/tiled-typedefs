@@ -1,7 +1,7 @@
 package tiled.arrays;
 
 // Made with ♥ by Milton Candelero - Oct 2019 - Based on 1.3.0 beta docs: http://doc.mapeditor.org/en/latest/reference/json-map-format/
-abstract PropertyArray(Array<Property>) from Array<Property> to Array<Property> {
+@:forward abstract PropertyArray(Array<Property>) from Array<Property> to Array<Property> {
 	/**
 	 * Returns the value of a property by name without casting.
 	 * @param name Name of the property

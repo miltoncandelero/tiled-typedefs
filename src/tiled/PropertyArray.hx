@@ -1,6 +1,6 @@
 package tiled;
 
-abstract PropertyArray(Array<Property>) from Array<Property> to Array<Property> {
+@:forward abstract PropertyArray(Array<Property>) from Array<Property> to Array<Property> {
 	/**
 	 * Returns the value of a property by name without casting.
 	 * @param name Name of the property
