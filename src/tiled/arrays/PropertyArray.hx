@@ -33,7 +33,7 @@ package tiled.arrays;
 	 * @param includeAlpha If this is set to true the returned color is ARGB (8 hex digits). If this is set to false it returns RGB (6 hex digits)
 	 * @return Int Value of the property
 	 */
-	public function getColor(name:String, includeAlpha:Bool = false):Int {
+	public function getColor(name:String, includeAlpha:Bool = false):Null<Int> {
 		for (item in this) {
 			if (item.name == name) {
 				if (!Std.is(item.value, String) || cast(item.value, String).charAt(0) != "#") {
